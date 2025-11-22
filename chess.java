@@ -1,8 +1,8 @@
 public class chess {
   byte b;
-short s;
-int i;
-long l;
+ short s;
+ int i;
+ long l;
 double d;
 char c;
 boolean bo;
