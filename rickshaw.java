@@ -13,9 +13,9 @@ public class rickshaw {
     char type=input.nextLine().charAt(0);
     System.out.println("Are you traveling at night? (yes or no): ");
     char travel=input.nextLine().charAt(0);
-    float fare= (float) (15*distance)+(4*time);
-    float Increased_fare= (float) 1.10*fare;
-    float Discount_fare=(float)0.90*fare;
+    float fare= (float) (12*distance)+(5*time);
+    float Increased_fare= (float) 2.00*fare;
+    float Discount_fare=(float)1.20*fare;
     float final_fare=(type=='y'&& travel=='y')?Discount_fare: (type!='y'&& travel=='y')? Increased_fare:fare;
     System.out.println("Your final fare is: "+final_fare);
 
